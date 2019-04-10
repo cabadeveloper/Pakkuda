@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+<!-- Favicon -->
+	<link href="images/header/fav.png" rel="shortcut icon" type="image/x-icon"/>
+
+    <title>Youlisting | Car Details</title>
+
+    <!-- Bootstrap core CSS-->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	    <link href="css/style.css" rel="stylesheet">
+		<link href="css/responsive.css" rel="stylesheet">
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Page level plugin CSS-->
+     <link rel="stylesheet" href="css/portfolio.css" type="text/css">
+    <link rel="stylesheet" href="css/owlslider.css" type="text/css">
+    <!-- Custom styles for this template-->
+	<link href="css/themify-icons.css" rel="stylesheet">
+    <link href="css/sb-admin.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	
+  </head>
+
+  <body id="page-top" oncontextmenu="return false;">
+
+    <nav class="navbar navbar-expand-md navbar-light fixed-top sticky-top nav-menu">
+		<div class="container">
+			<div class="col-md-2 col-xs-12 p-left  p-right">
+
+			<button  class="btn btn-link btn-sm text-white order-1 order-sm-0"  id="sidebarToggle" >
+			<i class="ti-menu"></i>
+			</button>
+			<div class="logo">
+				<a href="index_1.html">
+				<img src="images/header/logo.png" alt="logo" >
+				</a>
+			</div>
+			</div>
+		  <!-- Navbar -->
+			<div class="col-md-5 col-xs-12 p-left  p-right">
+				 <div class="searching">
+					<form>
+					<button type="submit"><i class="ti-search" aria-hidden="true"></i></button>
+					<input type="text" name="search" placeholder="Search Places, Events, House, Shop, Bike, Car, Mobile etc...">
+					</form>
+				</div>
+			</div>
+				<div class="col-md-5 col-xs-12 p-left p-right">
+				 <div class="add-listing">
+					<a href="upload.html">
+					<i class="ti-plus"></i>
+					Add Listing</a>
+				 </div>
+				 <div class="home">
+					<ul>
+						<li>
+							<a  href="index_1.html"><i class="ti-home"></i>
+								<span class="circle"></span>
+							</a>
+						</li>
+						<li class="popup"  onclick="myFunctionmsg()">
+							<i class="ti-comments"></i>
+							<span>3</span>
+							<div class="popuptext" id="message">
+								<a href="message.html"><div class="notfication-details">
+									<div class="media">
+										<div class="media-left">
+											<a href="#"><img src="images/messages/msg-1.png" alt=""></a>
+										</div>
+										<div class="media-body">
+											<h4 class="media-heading color-primary">John Doe</h4>
+											<p>Hello John, How are you?</p>
+											<p class="comment-date">10 min ago</p>
+										</div>
+                                    </div>
+								</div></a><!--notification-info -->
+								<a href="message.html"><div class="notfication-details">
+									<div class="media">
+										<div class="media-left">
+											<a href="#"><img src="images/messages/msg-2.png" alt=""></a>
+										</div>
+										<div class="media-body">
+											<h4 class="media-heading color-primary">John Doe</h4>
+											<p>Hello John,What are doing?</p>
+											<p class="comment-date">10 min ago</p>
+										</div>
+                                    </div>
+								</div></a><!--notification-info -->
+								<a href="message.html"><div class="notfication-details">
+									<div class="media">
+										<div class="media-left">
+											<a href="#"><img src="images/messages/msg-3.png" alt=""></a>
+										</div>
+										<div class="media-body">
+											<h4 class="media-heading color-primary">John Doe</h4>
+											<p>What you thing about my listing.</p>
+											<p class="comment-date">10 min ago</p>
+										</div>
+                                    </div>
+								</div></a><!--notification-info -->
+								
+							</div>
+					
+						</li>
+						<li class="popup"  onclick="myFunctionicon()">
+							<i class="ti-bell"></i>
+						<span>3</span>
+						<div class="popuptext" id="icon">
+								<a href="message.html"><div class="notfication-details">
+									<div class="media">
+										<div class="media-left">
+											<a href="#"><img src="images/messages/msg-1.png" alt=""></a>
+										</div>
+										<div class="media-body">
+											<h4 class="media-heading color-primary">John Doe</h4>
+											<p>comment on your listing</p>
+											<p class="comment-date">10 min ago</p>
+										</div>
+                                    </div>
+								</div></a><!--notification-info -->
+								<a href="message.html"><div class="notfication-details">
+									<div class="media">
+										<div class="media-left">
+											<a href="#"><img src="images/messages/msg-2.png" alt=""></a>
+										</div>
+										<div class="media-body">
+											<h4 class="media-heading color-primary">John Doe</h4>
+											<p>saved your listing</p>
+											<p class="comment-date">10 min ago</p>
+										</div>
+                                    </div>
+								</div></a><!--notification-info -->
+								<a href="message.html"><div class="notfication-details">
+									<div class="media">
+										<div class="media-left">
+											<a href="#"><img src="images/messages/msg-3.png" alt=""></a>
+										</div>
+										<div class="media-body">
+											<h4 class="media-heading color-primary">John Doe</h4>
+											<p>liked you</p>
+											<p class="comment-date">10 min ago</p>
+										</div>
+                                    </div>
+								</div></a><!--notification-info -->
+							 </div>
+						
+						</li>
+						  
+					</ul>
+				 </div>
+				 <!--#Home-->
+				 <div class="login popup"  onclick="signin()">
+					
+					<img src="images/header/dp.png" title="" alt="">
+					John Deo
+					<div class="popuptext1 visible-title" id="signin">
+								<div class="notfication-details visible-title">
+									<div class="notification-info visible-title">
+										<a href="user_profile_details.html">Other User Profile </a>
+									
+									</div>
+								</div>
+								<div class="notfication-details visible-title">
+									<div class="notification-info visible-title">
+										<a href="my_profile_about.html">My Dashboard</a>
+									</div>
+								</div>
+								<div class="notfication-details visible-title">
+									<div class="notification-info visible-title">
+										<a href="messages.html">Messages</a>
+									</div>
+								</div>
+								<div class="notfication-details visible-title">
+									<div class="notification-info visible-title">
+										<a href="signin.html">Sign In</a>
+									</div><!--notification-info -->
+								</div>
+								<div class="notfication-details visible-title">
+									<div class="notification-info visible-title">
+										<a href="signup.html">Sign up</a>
+									</div><!--notification-info -->
+								</div>
+								
+								<div class="notfication-details visible-title">
+									<div class="notification-info visible-title">
+										<a href="#">Payment</a>
+									</div><!--notification-info -->
+								</div>
+								<div class="notfication-details visible-title">
+									<div class="notification-info visible-title">
+										<a href="help.html">Help</a>
+									</div><!--notification-info -->
+								</div>
+								<div class="notfication-details visible-title">
+									<div class="notification-info visible-title">
+										<a href="setting.html">Setting</a>
+									</div><!--notification-info -->
+								</div>
+								<div class="notfication-details visible-title">
+									<div class="notification-info visible-title">
+										<a href="#">Logout</a>
+									</div><!--notification-info -->
+								</div>
+							 </div>
+				</div>
+			</div>
+		
+    </nav>
+    <div class="container">
+	<div id="wrapper">
+      <!-- Sidebar -->
+		    <ul class="sidebar navbar-nav">
+				<li class="nav-item active">
+				<a href="index_1.html"><i class="ti-home"></i><div class="fos" id="foo"> Home </div></a></li>
+				<li><a href="listing.html"><i class="ti-view-grid"></i><div class="fos" id="foo"> Listing </div></a></li>
+				<li><a href="find_profiles.html"><i class="ti-user"></i><div class="fos" id="foo"> Find Profiles </div></a></li>
+				<li><a href="messages.html"><i class="ti-comments"></i><div class="fos" id="foo"> Messages </div></a></li>
+				
+				<li><a href="my_profile_saved.html"><i class="ti-heart"></i><div class="fos" id="foo"> Saved </div></a></li>
+				<li> <a href="most_viewed.html"><i class="ti-eye"></i><div class="fos" id="foo"> Most Viewed </div></a></li>
+				<li> <a href="my_profile_following.html"><i class="ti-thumb-up"></i><div class="fos" id="foo"> Following</div></a></li>
+				<li><a href="#"><i class="ti-credit-card"></i><div class="fos" id="foo"> Payment </div> </a></li>
+				
+				<li> <a href="help.html"><i class="ti-help-alt"></i><div class="fos" id="foo"> Help</div> </a></li>
+				<li> <a href="setting.html"><i class="ti-settings"></i><div class="fos" id="foo"> Setting</div> </a></li>
+				<li><a href="feedback.html"><i class="ti-headphone-alt"></i><div class="fos" id="foo"> Send Feedback </div> </a></li>				
+		    </ul>
+		<div id="content-wrapper">
+			<div class="container-fluid">
+			 <!-- Banner -->
+				<div class="dashboard">
+					<div class="advertisment-banner1 col-md-12">
+						<img src="images/restaurant/car-bg.jpg" alt="" title="">
+						<div class=" dash-profile">
+							<img src="images/restaurant/dp-7.jpg" alt="">
+						</div>
+						
+						<div class="main-page">						
+							<div class="prompr">
+								<ul class="widths">
+									<li class="number" data-toggle="tooltip" data-placement="top" title="Call Us"><i class="ti-mobile"></i> &nbsp; +91 1234 567...</li>
+									<li class="number"><i class="ti-location-pin"></i> &nbsp; Location he...</li>
+									<li class="saved">
+										<i class="ti-heart"></i>
+										<a href="#">Saved</a>
+									</li>
+									<li class="Reivew"> 
+										<a href="car_comment.html"> Comment </a>		
+									</li>
+									<li class="borders"><i class="ti-sharethis"></i></li>
+									<li class="borders"><i class="ti-more-alt"></i></li>
+								</ul>
+								<div class="dashname">
+									Audi A5
+									<p><a href="">@ auther_name</a></p>
+								</div>
+								
+							</div>
+						</div>
+						<div class="mp-btn">
+									<div class="Author">
+										<a href="#">Message to Author</a>
+									</div>
+									<div class="promote">
+										<a href="#">Promote</a>
+									</div>
+								</div>
+					</div>
+					
+						<div class="clearfix">
+						</div>
+				</div>
+				
+				  <!-- Banner Area-->
+			  <div class="settingmenu">		
+				<div class="all-links">					
+					<ul class="tab-links">
+						<li>
+						<a  href="car_details.html" style="color:#34333c;">Detail  </a>
+						</li>
+						<li>
+						<a href="car_gallery.html" >Gallery </a>
+						</li>
+						<li>
+						<a href="car_comment.html">Comment </a>
+						</li>					
+					</ul>
+				</div>				
+			 </div>
+			<div class="row lr-row">
+				<div class="col-md-7">
+					<div class=" locatins">
+						<div class="heading">
+						 <i class="ti-menu"></i><h3>Description</h3>
+						</div>
+						<div class="sub-heading">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a 
+							interdum neque. Nullam mi sem, tristique vel volutpat ac, consectetur sit 
+							amet massa. Curabitur at ipsum leo. Morbi porttitor lorem velit, at lacinia
+							magna pretium at. Duis id mattis nisl. In sit amet eros sed lorem hendrerit 
+							ornare quis in mauris. Sed nec purus euismod, pharetra nibh a, aliquet lorem..
+							Suspendisse pretium ullamcorper neque et aliquam.
+						</div>
+						<div class="clearfix"></div>
+					</div>
+
+					<div class="locatins heading">
+						<div class="heading">
+						 <i class="ti-location-pin"></i><h3>Location</h3>
+						</div>
+						<div class="map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109552.36514741898!2d75.78663299443437!3d30.900326335681108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a837462345a7d%3A0x681102348ec60610!2sLudhiana%2C+Punjab!5e0!3m2!1sen!2sin!4v1542822206775" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="locatins heading">
+						<div class="heading">
+						 <i class="ti-tag"></i><h3>Tags</h3>
+						</div>
+						<div class="tag">
+							<a href="#">Credit</a>
+							<a href="#">Wifi</a>
+							<a href="#">Parking</a>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="col-md-5">
+					<div class="box-left">
+						<div class="rightboxs">
+							<div class="heading">
+							 <i class="ti-money"></i><h3>Price</h3>
+							</div>
+							<p> For Sale<br><div class="price">$1,55,000</div></p>
+						</div>
+					</div>
+					
+					<div class="box-left">
+						<div class="rightboxs">
+							<div class="heading">
+							 <i class="ti-user"></i><h3>Author</h3>
+							</div>
+							<p><a href="#">@authorname </a></p>
+						</div>
+					</div>
+					<div class="box-left">
+						<div class="rightboxs">
+							<div class="heading">
+							 <i class="ti-panel"></i><h3>Technical Specifications</h3>
+							</div>
+							<div class="property">
+								<ul>
+									<li><div class="item-attr">Manufacturing Year </div>
+										<div class="item-value">2017 </div>
+									</li>
+									<li><div class="item-attr">Number of doors </div>
+										<div class="item-value">4 </div>
+									</li>
+									<li><div class="item-attr">Fuel </div>
+										<div class="item-value">Diesel </div>
+									</li>
+									<li><div class="item-attr">Mileage </div>
+										<div class="item-value">15600 km </div>
+									</li>
+									<li><div class="item-attr">Color </div>
+										<div class="item-value">Silver </div>
+									</li>
+									<li><div class="item-attr">Transmission </div>
+										<div class="item-value">Automatic </div>
+									</li>
+									
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="box-left">
+						<div class="rightboxs">
+							<div class="heading">
+							 <i class="ti-rss"></i><h3> Follow us</h3>
+							</div>
+							<p>
+							<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-google" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-lastfm-square" aria-hidden="true"></i></a>
+							</p>
+						</div>
+					</div>
+					<div class="box-left">
+						<div class="rightboxs">
+							<div class="heading">
+							 <i class="ti-flag-alt-2"></i><h3> Region</h3>
+							</div>
+							<p>India</p>
+						</div>
+					</div>
+					<div class="box-left">
+						<div class="rightboxs">
+							<div class="heading">
+							 <i class="ti-view-grid"></i><h3> Categories</h3>
+							</div>
+							<p>Real Estate</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+      <!-- /.content-wrapper -->
+	</div>
+	</div>
+    <!-- /#wrapper -->
+			<!-- Sticky Footer -->
+			<footer class="sticky-footer col-md-12">
+			  <div class="container my-auto">
+				<div class="copyright text-center my-auto">
+				 
+				<div class="footer-info">
+							<a href="#">About </a> | 
+							<a href="#">Faq’s </a> | 
+							<a href="#">Privacy</a> |
+							<a href="#"> Advertise</a>  | 
+							<a href="#">Term & Conditions </a> |
+							<a href="#">Sitemap  </a>| 
+							<a href="#">Tags  </a>| 
+							<a href="#">Blog</a>
+						</div>
+						<div class="copy-right">
+						© Copyright 2019 by Gambol. 
+						All Rights Reserved.
+						</div>
+				</div>
+			  </div>
+			</footer>
+
+		
+	
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+   <!-- Page level plugin JavaScript-->
+    <script src="vendor/chart.js/Chart.min.js"></script>
+    <script src="vendor/datatables/jquery.dataTables.js"></script>
+    <script src="vendor/datatables/dataTables.bootstrap4.js"></script>
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin.min.js"></script>
+	
+	 <script src="js/you-listing.js"></script>
+	  <script src="js/menurght.js"></script>
+	 
+    <!-- Demo scripts for this page-->
+ 	<script src="js/slick.min.js"></script>
+	 <!-- Assect scripts for this page-->
+	<script src="assets/vendors/jquery.min.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.js"></script>
+	 <script src="assets/vendors/highlight.js"></script>
+    <script src="assets/js/app.js"></script>
+	
+  </body>
+
+</html>

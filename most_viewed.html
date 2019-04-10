@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+<!-- Favicon -->
+	<link href="images/header/fav.png" rel="shortcut icon" type="image/x-icon"/>
+
+    <title>Youlisting | Most Viewed Listing </title>
+
+    <!-- Bootstrap core CSS-->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	    <link href="css/style.css" rel="stylesheet">
+		<link href="css/responsive.css" rel="stylesheet">
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Page level plugin CSS-->
+     <link rel="stylesheet" href="css/portfolio.css" type="text/css">
+    <link rel="stylesheet" href="css/owlslider.css" type="text/css">
+    <!-- Custom styles for this template-->
+	<link href="css/themify-icons.css" rel="stylesheet">
+    <link href="css/sb-admin.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	 <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
+
+  </head>
+
+  <body id="page-top" oncontextmenu="return false;">
+
+	<nav class="navbar navbar-expand-md navbar-light fixed-top sticky-top nav-menu">
+		<div class="container">
+			<div class="col-md-2 col-xs-12 p-left  p-right">
+
+			<button  class="btn btn-link btn-sm text-white order-1 order-sm-0"  id="sidebarToggle" >
+			<i class="ti-menu"></i>
+			</button>
+			<div class="logo">
+				<a href="index_1.html">
+				<img src="images/header/logo.png" alt="logo" >
+				</a>
+			</div>
+			</div>
+		  <!-- Navbar -->
+			<div class="col-md-5 col-xs-12 p-left  p-right">
+				 <div class="searching">
+					<form>
+					<button type="submit"><i class="ti-search" aria-hidden="true"></i></button>
+					<input type="text" name="search" placeholder="Search Places, Events, House, Shop, Bike, Car, Mobile etc...">
+					</form>
+				</div>
+			</div>
+				<div class="col-md-5 col-xs-12 p-left p-right">
+				 <div class="add-listing">
+					<a href="upload.html">
+					<i class="ti-plus"></i>
+					Add Listing</a>
+				 </div>
+				 <div class="home">
+					<ul>
+						<li>
+							<a  href="index_1.html"><i class="ti-home"></i>
+								<span class="circle"></span>
+							</a>
+						</li>
+						<li class="popup"  onclick="myFunctionmsg()">
+							<i class="ti-comments"></i>
+							<span>3</span>
+							<div class="popuptext" id="message">
+								<a href="message.html"><div class="notfication-details">
+									<div class="media">
+										<div class="media-left">
+											<a href="#"><img src="images/messages/msg-1.png" alt=""></a>
+										</div>
+										<div class="media-body">
+											<h4 class="media-heading color-primary">John Doe</h4>
+											<p>Hello John, How are you?</p>
+											<p class="comment-date">10 min ago</p>
+										</div>
+                                    </div>
+								</div></a><!--notification-info -->
+								<a href="message.html"><div class="notfication-details">
+									<div class="media">
+										<div class="media-left">
+											<a href="#"><img src="images/messages/msg-2.png" alt=""></a>
+										</div>
+										<div class="media-body">
+											<h4 class="media-heading color-primary">John Doe</h4>
+											<p>Hello John,What are doing?</p>
+											<p class="comment-date">10 min ago</p>
+										</div>
+                                    </div>
+								</div></a><!--notification-info -->
+								<a href="message.html"><div class="notfication-details">
+									<div class="media">
+										<div class="media-left">
+											<a href="#"><img src="images/messages/msg-3.png" alt=""></a>
+										</div>
+										<div class="media-body">
+											<h4 class="media-heading color-primary">John Doe</h4>
+											<p>What you thing about my listing.</p>
+											<p class="comment-date">10 min ago</p>
+										</div>
+                                    </div>
+								</div></a><!--notification-info -->
+								
+							</div>
+					
+						</li>
+						<li class="popup"  onclick="myFunctionicon()">
+							<i class="ti-bell"></i>
+						<span>3</span>
+						<div class="popuptext" id="icon">
+								<a href="message.html"><div class="notfication-details">
+									<div class="media">
+										<div class="media-left">
+											<a href="#"><img src="images/messages/msg-1.png" alt=""></a>
+										</div>
+										<div class="media-body">
+											<h4 class="media-heading color-primary">John Doe</h4>
+											<p>comment on your listing</p>
+											<p class="comment-date">10 min ago</p>
+										</div>
+                                    </div>
+								</div></a><!--notification-info -->
+								<a href="message.html"><div class="notfication-details">
+									<div class="media">
+										<div class="media-left">
+											<a href="#"><img src="images/messages/msg-2.png" alt=""></a>
+										</div>
+										<div class="media-body">
+											<h4 class="media-heading color-primary">John Doe</h4>
+											<p>saved your listing</p>
+											<p class="comment-date">10 min ago</p>
+										</div>
+                                    </div>
+								</div></a><!--notification-info -->
+								<a href="message.html"><div class="notfication-details">
+									<div class="media">
+										<div class="media-left">
+											<a href="#"><img src="images/messages/msg-3.png" alt=""></a>
+										</div>
+										<div class="media-body">
+											<h4 class="media-heading color-primary">John Doe</h4>
+											<p>liked you</p>
+											<p class="comment-date">10 min ago</p>
+										</div>
+                                    </div>
+								</div></a><!--notification-info -->
+							 </div>
+						
+						</li>
+						  
+					</ul>
+				 </div>
+				 <!--#Home-->
+				 <div class="login popup"  onclick="signin()">
+					
+					<img src="images/header/dp.png" title="" alt="">
+					John Deo
+					<div class="popuptext1 visible-title" id="signin">
+								<div class="notfication-details visible-title">
+									<div class="notification-info visible-title">
+										<a href="user_profile_details.html">Other User Profile </a>
+									
+									</div>
+								</div>
+								<div class="notfication-details visible-title">
+									<div class="notification-info visible-title">
+										<a href="my_profile_about.html">My Dashboard</a>
+									</div>
+								</div>
+								<div class="notfication-details visible-title">
+									<div class="notification-info visible-title">
+										<a href="messages.html">Messages</a>
+									</div>
+								</div>
+								<div class="notfication-details visible-title">
+									<div class="notification-info visible-title">
+										<a href="signin.html">Sign In</a>
+									</div><!--notification-info -->
+								</div>
+								<div class="notfication-details visible-title">
+									<div class="notification-info visible-title">
+										<a href="signup.html">Sign up</a>
+									</div><!--notification-info -->
+								</div>
+								
+								<div class="notfication-details visible-title">
+									<div class="notification-info visible-title">
+										<a href="#">Payment</a>
+									</div><!--notification-info -->
+								</div>
+								<div class="notfication-details visible-title">
+									<div class="notification-info visible-title">
+										<a href="help.html">Help</a>
+									</div><!--notification-info -->
+								</div>
+								<div class="notfication-details visible-title">
+									<div class="notification-info visible-title">
+										<a href="setting.html">Setting</a>
+									</div><!--notification-info -->
+								</div>
+								<div class="notfication-details visible-title">
+									<div class="notification-info visible-title">
+										<a href="#">Logout</a>
+									</div><!--notification-info -->
+								</div>
+							 </div>
+				</div>
+			</div>
+		
+    </nav>
+    <div class="container"> 
+    <div id="wrapper">
+      <!-- Sidebar -->
+		 <ul class="sidebar navbar-nav">
+			<li class="nav-item active">
+			<a href="index_1.html"><i class="ti-home"></i><div class="fos" id="foo"> Home </div></a></li>
+			<li><a href="listing.html"><i class="ti-view-grid"></i><div class="fos" id="foo"> Listing </div></a></li>
+			<li><a href="find_profiles.html"><i class="ti-user"></i><div class="fos" id="foo"> Find Profiles </div></a></li>
+			<li><a href="messages.html"><i class="ti-comments"></i><div class="fos" id="foo"> Messages </div></a></li>
+			
+			<li><a href="saved.html"><i class="ti-heart"></i><div class="fos" id="foo"> Saved </div></a></li>
+			<li> <a href="most_viewed.html"><i class="ti-eye"></i><div class="fos" id="foo"> Most Viewed </div></a></li>
+			<li> <a href="my_profile_following.html"><i class="ti-thumb-up"></i><div class="fos" id="foo"> Following</div></a></li>
+			<li><a href="#"><i class="ti-credit-card"></i><div class="fos" id="foo"> Payment </div> </a></li>
+			
+			<li> <a href="help.html"><i class="ti-help-alt"></i><div class="fos" id="foo"> Help</div> </a></li>
+			<li> <a href="setting.html"><i class="ti-settings"></i><div class="fos" id="foo"> Setting</div> </a></li>
+			<li><a href="feedback.html"><i class="ti-headphone-alt"></i><div class="fos" id="foo"> Send Feedback </div> </a></li>
+			
+		  </ul>
+		<div id="content-wrapper">
+			<div class="container-fluid">
+
+				<div class="messages text-center col-md-12">
+					Most Viewed Listing
+					<hr>
+					</div>
+		
+				 
+					<div class="tabby">						
+					  <div class="col-md-4 col-xs-12 ">
+						<div class="box">
+							<div class="box-img">
+								<img src="images/homepage/latest/01_img.jpg" class="img" alt="" title="" >
+								<div class="box-heading1">
+								<a href="event_details.html"> Global Festival </a>
+								<div class="box-heading2">
+								<i class="ti-location-pin"></i> India</div>
+								</div>
+							</div>
+							<div class="box-radius">
+								<img src="images/homepage/latest/01_dp.png" class="img" alt="" title="" >
+								
+							</div>
+							<div class="box-heading3">
+								<a href="user_profile_details.html">By John Doe</a> <i class="fa pull-right fa-heart-o" aria-hidden="true"></i>
+							</div>
+						</div>
+						</div>
+
+						<div class="col-md-4 col-xs-12 ">
+							<div class="box">
+								<div class="box-img">
+									<img src="images/homepage/realestate/ig-1.jpg" class="img" alt="" title="" >
+									<div class="box-heading1">
+									<a href="house_details.html"> House for Sale </a>
+									<div class="box-heading2">
+									<i class="ti-location-pin"></i> New York City
+									</div>
+								</div>
+								</div>				
+								<div class="box-radius">
+									<img src="images/homepage/latest/02_dp.png" class="img" alt="" title="" >
+									
+								</div>
+								<div class="box-heading3">
+									<a href="user_profile_details.html">By Jassica William</a> <i class="fa pull-right fa-heart-o" aria-hidden="true"></i>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="col-md-4 col-xs-12 ">
+							<div class="box">
+								<div class="box-img">
+									<img src="images/homepage/place/9_img.jpg" class="img" alt="" title="" >
+									<div class="box-heading1">
+									<a href="cinema_details.html"> Pixel Cinema </a>
+									<div class="box-heading2">
+									<i class="ti-location-pin"></i> Austrilia
+									</div>
+								</div>
+								</div>				
+								<div class="box-radius">
+									<img src="images/homepage/latest/03_dp.png" class="img" alt="" title="" >
+								</div>
+								<div class="box-heading3">
+									<a href="user_profile_details.html"> By Rock Smith</a> <i class="fa pull-right fa-heart-o" aria-hidden="true"></i>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="col-md-4 col-xs-12 ">
+							<div class="box">
+								<div class="box-img">
+									<img src="images/homepage/latest/03_img.jpg" class="img" alt="" title="" >
+									<div class="box-heading1">
+									<a href="cafe_details.html">Coffee House </a>
+									<div class="box-heading2">
+										<i class="ti-location-pin"></i>  London
+									</div>
+								</div>
+								</div>
+								
+								<div class="box-radius">
+									<img src="images/homepage/latest/01_dp.png" class="img" alt="" title="" >
+								</div>
+								<div class="box-heading3">
+									<a href="user_profile_details.html">By John Doe</a><i class="fa pull-right fa-heart-o" aria-hidden="true"></i>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4 col-xs-12 ">
+							<div class="box">
+								<div class="box-img">
+									<img src="images/homepage/latest/03_img.jpg" class="img" alt="" title="" >
+									<div class="box-heading1">
+									<a href="restaurant_details.html">Resturent Name</a>
+									<div class="box-heading2">
+										<i class="ti-location-pin"></i> Unitied State of America
+									</div>
+								</div>
+								</div>
+								
+								<div class="box-radius">
+									<img src="images/homepage/latest/02_dp.png" class="img" alt="" title="" >
+								</div>
+								<div class="box-heading3">
+									<a href="user_profile_details.html">By Jassica William</a> <i class="fa pull-right fa-heart-o" aria-hidden="true"></i>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-xs-12 ">
+							<div class="box">
+								<div class="box-img">
+									<img src="images/homepage/place/8_img.jpg" class="img" alt="" title="" >
+									<div class="box-heading1">
+									 <a href="cafe_details.html">Coffee House </a>
+									<div class="box-heading2">
+										<i class="ti-location-pin"></i>  South Africa
+									</div>
+								</div>
+								</div>			
+								<div class="box-radius">
+								<img src="images/homepage/latest/03_dp.png" class="img" alt="" title="" >
+								</div>
+								<div class="box-heading3">
+									<a href="user_profile_details.html">By Jassica William </a> <i class="fa pull-right fa-heart-o" aria-hidden="true"></i>
+								</div>
+							</div>
+						</div>
+				</div>
+<!--#Recomamded End-->
+
+	<div class="clearfix"></div>
+   <!--#Spiner-->
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+   <!--#Spiner-->
+   </div>
+   </div>
+      <!-- /.content-wrapper -->
+    
+	</div>
+	</div>
+    <!-- /#wrapper -->
+			<!-- Sticky Footer -->
+			<footer class="sticky-footer col-md-12">
+			  <div class="container my-auto">
+				<div class="copyright text-center my-auto">
+				 
+				<div class="footer-info">
+							<a href="#">About </a> | 
+							<a href="#">Faq’s </a> | 
+							<a href="#">Privacy</a> |
+							<a href="#"> Advertise</a>  | 
+							<a href="#">Term & Conditions </a> |
+							<a href="#">Sitemap  </a>| 
+							<a href="#">Tags  </a>| 
+							<a href="#">Blog</a>
+						</div>
+						<div class="copy-right">
+						© Copyright 2019 by Gambol. 
+						All Rights Reserved.
+						</div>
+				</div>
+			  </div>
+			</footer>
+
+		
+	
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+   <!-- Page level plugin JavaScript-->
+    <script src="vendor/chart.js/Chart.min.js"></script>
+    <script src="vendor/datatables/jquery.dataTables.js"></script>
+    <script src="vendor/datatables/dataTables.bootstrap4.js"></script>
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin.min.js"></script>
+	 <script src="js/portfolio.js"></script>
+	 <script src="js/you-listing.js"></script>
+	 <script src="js/menurght.js"></script>
+	 <script src="js/crausal1.js"></script>
+
+    <!-- Demo scripts for this page-->
+  	<script src="js/slick.min.js"></script>.
+	 <!-- Assect scripts for this page-->
+	<script src="assets/vendors/jquery.min.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.js"></script>
+	 <script src="assets/vendors/highlight.js"></script>
+    <script src="assets/js/app.js"></script>
+	
+  </body>
+
+</html>
