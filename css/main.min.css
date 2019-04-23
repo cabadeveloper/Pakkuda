@@ -61,7 +61,7 @@ ul {
 .header.header--logout .logo {
     height: 70px;
     width: 70px;
-    background-color: #ff5e3a;
+    background-color: #30A50F;
     padding: 15px
 }
 
@@ -442,7 +442,7 @@ ul {
 }
 
 .account-settings a:hover {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 .account-settings a>* {
@@ -777,7 +777,7 @@ blockquote p:before {
 }
 
 .header-menu .nav-link:hover {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 .header-menu .dropdown:hover>.dropdown-menu {
@@ -799,7 +799,7 @@ blockquote p:before {
 
 .header-menu .dropdown-item:focus,
 .header-menu .dropdown-item:hover {
-    color: #ff5e3a;
+    color: #30A50F;
     background-color: transparent
 }
 
@@ -920,7 +920,7 @@ blockquote p:before {
 }
 
 .open-responsive-menu:hover {
-    fill: #ff5e3a
+    fill: #30A50F
 }
 
 .close-responsive-menu {
@@ -939,7 +939,7 @@ blockquote p:before {
 }
 
 .close-responsive-menu:hover {
-    fill: #ff5e3a
+    fill: #30A50F
 }
 
 .dropdown-has-megamenu {
@@ -973,7 +973,7 @@ blockquote p:before {
 .column-tittle:after {
     display: block;
     height: 2px;
-    background-color: #ff5e3a;
+    background-color: #30A50F;
     width: 15%;
     position: absolute;
     bottom: 0;
@@ -1032,7 +1032,7 @@ blockquote p:before {
 }
 
 .header--standard-landing .dropdown-menu.megamenu .dropdown-item:hover {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 .header--standard-landing .header-menu {
@@ -1100,7 +1100,7 @@ blockquote p:before {
 
 .header--standard-landing .header-menu .nav-item .dropdown-item:hover,
 .header--standard-landing .header-menu li .dropdown-item:hover {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 .header--standard-landing.headroom--not-top .logo,
@@ -1819,7 +1819,7 @@ blockquote p:before {
         position: absolute
     }
     .header--standard-landing .header-menu {
-        background-color: #ff5e3a
+        background-color: #30A50F
     }
     .header--standard-landing .header-menu .nav-item {
         display: inline-block;
@@ -2065,7 +2065,7 @@ section {
 
 .footer--dark .socials i:hover,
 .footer--dark .socials svg:hover {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 .sub-footer-copyright {
@@ -2080,7 +2080,7 @@ section {
 }
 
 .sub-footer-copyright a {
-    color: #ff5e3a;
+    color: #30A50F;
     opacity: .7;
     font-weight: 500
 }
@@ -2494,7 +2494,7 @@ select {
 }
 
 .mobile-app .left-menu a:hover {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 .mobile-app .fixed-sidebar-left.sidebar--large {
@@ -2625,7 +2625,7 @@ select {
 }
 
 .about-olympus a:hover {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 .mobile-app-tabs {
@@ -2673,7 +2673,7 @@ select {
 
 .mobile-app-tabs .nav-link.active {
     background-color: transparent;
-    border-color: transparent transparent #ff5e3a
+    border-color: transparent transparent #30A50F
 }
 
 .mobile-app-tabs .nav-link.active svg {
@@ -2719,7 +2719,7 @@ select {
 }
 
 .nav-tabs .app-tabs-close:hover svg {
-    fill: #ff5e3a
+    fill: #30A50F
 }
 
 @media (max-width:768px) {
@@ -2978,7 +2978,7 @@ select {
 }
 
 .cart-main .product-del svg:hover {
-    fill: #ff5e3a
+    fill: #30A50F
 }
 
 .cart-main .form-inline>*+* {
@@ -3064,7 +3064,7 @@ select {
 input,
 p,
 select {
-    font-size: .875rem
+    font-size: 1.275rem
 }
 
 .payment-methods-list .radio label span {
@@ -3146,7 +3146,7 @@ a {
 }
 
 a:hover {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 input,
@@ -3288,7 +3288,7 @@ blockquote p:before {
     top: 0;
     left: -80px;
     display: block;
-    background-color: #ff5e3a
+    background-color: #30A50F
 }
 
 @media (max-width:640px) {
@@ -3373,7 +3373,7 @@ img {
 .number-spinner.input-group .input-group-btn>.btn {
     margin-bottom: 0;
     height: 100%;
-    background-color: #ff5e3a;
+    background-color: #30A50F;
     z-index: 5
 }
 
@@ -3799,7 +3799,7 @@ button:hover {
 }
 
 .btn-more:hover {
-    fill: #ff5e3a
+    fill: #30A50F
 }
 
 .btn-border {
@@ -3856,8 +3856,8 @@ button:hover {
 }
 
 .btn-secondary:hover {
-    background-color: #ff5e3a;
-    border-color: #ff5e3a;
+    background-color: #30A50F;
+    border-color: #30A50F;
     opacity: 1
 }
 
@@ -4073,7 +4073,7 @@ button:hover {
 }
 
 .fav-pages {
-    background-color: #ff5e3a
+    background-color: #30A50F
 }
 
 .chat-message {
@@ -4099,7 +4099,7 @@ button:hover {
     cursor: pointer;
     box-shadow: 0 0 10px 0 rgba(63, 66, 87, .4);
     border-radius: 100%;
-    background-color: #ff5e3a;
+    background-color: #30A50F;
     text-align: center
 }
 
@@ -4315,7 +4315,7 @@ select.form-control {
 }
 
 .tooltip-primary .tooltip-inner {
-    background-color: #ff5e3a
+    background-color: #30A50F
 }
 
 .tooltip-completed .tooltip-inner {
@@ -4409,7 +4409,7 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
 }
 
 .togglebutton label input[type=checkbox]:checked+.toggle {
-    background-color: #ff5e3a
+    background-color: #30A50F
 }
 
 .togglebutton.blue label input[type=checkbox]:checked+.toggle {
@@ -4500,13 +4500,13 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
 
 .file-upload__label:hover {
     cursor: pointer;
-    background-color: #ff5e3a
+    background-color: #30A50F
 }
 
 .file-upload__label.bg-blue:hover,
 .file-upload__label.bg-breez:hover,
 .file-upload__label.bg-green:hover {
-    background-color: #ff5e3a
+    background-color: #30A50F
 }
 
 .file-upload__input {
@@ -4566,7 +4566,7 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
 
 .list--styled i,
 .list--styled svg {
-    color: #ff5e3a;
+    color: #30A50F;
     font-size: 20px;
     margin-right: 17px
 }
@@ -4637,7 +4637,7 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
     height: 18px;
     width: 18px;
     border-radius: 100%;
-    background-color: #ff5e3a;
+    background-color: #30A50F;
     -webkit-transform: scale3d(0, 0, 0);
     transform: scale3d(0, 0, 0)
 }
@@ -4673,13 +4673,13 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
 }
 
 .radio input[type=radio]:checked~.check {
-    background-color: #ff5e3a;
+    background-color: #30A50F;
     -webkit-transform: scale3d(.45, .45, 1);
     transform: scale3d(.45, .45, 1)
 }
 
 .radio input[type=radio]:checked~.circle {
-    border-color: #ff5e3a
+    border-color: #30A50F
 }
 
 .radio input[type=radio][disabled]~.check,
@@ -4806,7 +4806,7 @@ fieldset[disabled] .form-group.is-focused .checkbox label {
 }
 
 .checkbox input[type=checkbox]:checked+.checkbox-material .check {
-    background: #ff5e3a
+    background: #30A50F
 }
 
 .checkbox input[type=checkbox]:checked+.checkbox-material .check:before {
@@ -4962,7 +4962,7 @@ fieldset[disabled] .checkbox input[type=checkbox] {
 
 .fixed-sidebar .logo {
     height: 70px;
-    background-color: #ff5e3a;
+    background-color: #30A50F;
     padding: 15px
 }
 
@@ -4980,7 +4980,7 @@ fieldset[disabled] .checkbox input[type=checkbox] {
 }
 
 .fixed-sidebar .search-friend svg:hover {
-    fill: #ff5e3a
+    fill: #30A50F
 }
 
 .fixed-sidebar .ui-block-title a {
@@ -5206,7 +5206,7 @@ fieldset[disabled] .checkbox input[type=checkbox] {
 }
 
 .left-menu a:hover svg {
-    fill: #ff5e3a
+    fill: #30A50F
 }
 
 .profile-completion {
@@ -5578,7 +5578,7 @@ fieldset[disabled] .checkbox input[type=checkbox] {
 }
 
 .more-dropdown a:hover {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 .more:hover .more-dropdown {
@@ -5722,7 +5722,7 @@ fieldset[disabled] .checkbox input[type=checkbox] {
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
-    background-color: #ff5e3a;
+    background-color: #30A50F;
     border-color: transparent
 }
 
@@ -5769,7 +5769,7 @@ fieldset[disabled] .checkbox input[type=checkbox] {
 .btn-next:hover,
 .btn-prev-without:hover,
 .btn-prev:hover {
-    fill: #ff5e3a
+    fill: #30A50F
 }
 
 .btn-next,
@@ -5828,7 +5828,7 @@ fieldset[disabled] .checkbox input[type=checkbox] {
 
 .single-post-slider .btn-next:hover,
 .single-post-slider .btn-prev:hover {
-    fill: #ff5e3a
+    fill: #30A50F
 }
 
 .single-post-slider .btn-next {
@@ -6008,7 +6008,7 @@ fieldset[disabled] .checkbox input[type=checkbox] {
     width: 50px;
     height: 50px;
     border-radius: 100%;
-    background-color: #ff5e3a;
+    background-color: #30A50F;
     color: #fff;
     line-height: 50px;
     text-align: center;
@@ -6028,7 +6028,7 @@ fieldset[disabled] .checkbox input[type=checkbox] {
 }
 
 .landing-main-content svg {
-    fill: #ff5e3a;
+    fill: #30A50F;
     margin-bottom: 30px
 }
 
@@ -6103,7 +6103,7 @@ fieldset[disabled] .checkbox input[type=checkbox] {
 }
 
 .registration-login-form .nav-link.active {
-    fill: #ff5e3a;
+    fill: #30A50F;
     background-color: #fff;
     border-color: #e6ecf5
 }
@@ -6163,7 +6163,7 @@ fieldset[disabled] .checkbox input[type=checkbox] {
 }
 
 .or:after {
-    content: 'OR';
+    content: 'O';
     display: block;
     position: absolute;
     left: 50%;
@@ -6258,7 +6258,7 @@ fieldset[disabled] .checkbox input[type=checkbox] {
 .img-bottom {
     position: relative;
     display: block;
-    margin: 20px auto -70px
+    margin: 20px auto -50px
 }
 
 .bg-account {
@@ -6520,7 +6520,7 @@ fieldset[disabled] .checkbox input[type=checkbox] {
 }
 
 .notification-list .notification-link {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 .notification-list .notification-icon {
@@ -7158,7 +7158,7 @@ body.overlay-enable:before {
 }
 
 .fav-page-popup .form-group.label-floating .bootstrap-select.btn-group .dropdown-toggle .filter-option {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 .icon-close {
@@ -7170,8 +7170,8 @@ body.overlay-enable:before {
 }
 
 .icon-close:hover {
-    color: #ff5e3a;
-    fill: #ff5e3a
+    color: #30A50F;
+    fill: #30A50F
 }
 
 .icon-close svg {
@@ -7218,7 +7218,7 @@ figcaption a {
 }
 
 .upload-photo-item:hover {
-    fill: #ff5e3a;
+    fill: #30A50F;
     background-color: #fafbfd
 }
 
@@ -7245,7 +7245,7 @@ figcaption a {
 }
 
 .choose-from-my-photo .nav-tabs .nav-link.active {
-    fill: #ff5e3a;
+    fill: #30A50F;
     background-color: #fff
 }
 
@@ -7311,7 +7311,7 @@ figcaption {
 }
 
 figcaption a:hover {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 figcaption span {
@@ -7587,7 +7587,7 @@ figure {
 }
 
 .create-friend-group .icon:hover {
-    fill: #ff5e3a
+    fill: #30A50F
 }
 
 .create-friend-group .icon.check {
@@ -7710,7 +7710,7 @@ figure {
     top: auto;
     right: 25px;
     bottom: 75px;
-    fill: #ff5e3a
+    fill: #30A50F
 }
 
 .create-event {
@@ -7759,7 +7759,7 @@ figure {
 }
 
 .create-event .icon:hover {
-    fill: #ff5e3a
+    fill: #30A50F
 }
 
 .create-event .icon.check {
@@ -8263,7 +8263,7 @@ ol ol li {
     left: 0;
     right: 8px;
     bottom: 8px;
-    background-color: #ff5e3a;
+    background-color: #30A50F;
     opacity: .8;
     border-radius: 3px
 }
@@ -8378,12 +8378,12 @@ ol ol li {
 }
 
 .post-add-icon:hover {
-    fill: #ff5e3a;
-    color: #ff5e3a
+    fill: #30A50F;
+    color: #30A50F
 }
 
 .post-add-icon:hover span {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 .post-add-icon:active,
@@ -8419,7 +8419,7 @@ ol ol li {
 
 .post-control-button .btn-control.bg-facebook,
 .post-control-button .btn-control.bg-facebook:hover {
-    background-color: #2f5b9d
+    background-color: #006097
 }
 
 .post-control-button .btn-control.bg-twitter,
@@ -8437,7 +8437,7 @@ ol ol li {
 }
 
 .post-control-button .btn-control:hover {
-    background-color: #ff5e3a
+    background-color: #30A50F
 }
 
 .post-control-button .btn-control.featured-post:hover {
@@ -8552,7 +8552,7 @@ ol ol li {
 
 .comments-list.style-3 .reply {
     margin-right: 20px;
-    color: #ff5e3a
+    color: #30A50F
 }
 
 .comments-list.style-3 .post__author-thumb {
@@ -8641,7 +8641,7 @@ ol ol li {
 }
 
 .more-comments:hover span {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 .comment-form {
@@ -8754,7 +8754,7 @@ ol ol li {
 }
 
 .post-video .video-content .link-site:hover {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 .video-thumb {
@@ -8839,7 +8839,7 @@ ol ol li {
 
 .news-feed-form .nav-tabs .nav-link.active {
     background-color: #fff;
-    fill: #ff5e3a;
+    fill: #30A50F;
     color: #515365;
     border-bottom: transparent
 }
@@ -8924,7 +8924,7 @@ ol ol li {
 
 .cat-list__item a:hover,
 .cat-list__item.active {
-    background-color: #ff5e3a
+    background-color: #30A50F
 }
 
 .cat-list__item a {
@@ -8986,7 +8986,7 @@ ol ol li {
 }
 
 .photo-gallery .nav-link.active {
-    fill: #ff5e3a;
+    fill: #30A50F;
     background-color: #fff;
     border-top-color: transparent
 }
@@ -9857,7 +9857,7 @@ ol ol li {
 }
 
 .negative {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 .points {
@@ -10096,7 +10096,7 @@ ol ol li {
 }
 
 .statistics-slide .title .c-primary {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 @media (max-width:1200px) {
@@ -10154,7 +10154,7 @@ ol ol li {
 
 .forum-item .title:hover,
 .forums-table .count:hover {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 .forums-table thead th.forum {
@@ -10206,7 +10206,7 @@ ol ol li {
 
 .author-freshness .title:hover,
 .sub-forums a:hover {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 .author-freshness .author-thumb {
@@ -10306,7 +10306,7 @@ ol ol li {
 .blog-post .post-title:hover,
 .open-topic-table .author-name:hover,
 .reply-topic {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 .open-topic-table thead th.author {
@@ -10444,13 +10444,13 @@ ol ol li {
 
 .post-category.bg-transparent {
     background-color: transparent;
-    color: #ff5e3a;
+    color: #006D87;
     padding: 0;
     font-size: 10px
 }
 
 .post-category.bg-transparent:hover {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 .post-category:hover {
@@ -10716,7 +10716,7 @@ ol ol li {
 }
 
 .single-post-additional a:hover {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 .post-date-wrap svg {
@@ -11103,7 +11103,7 @@ ol ol li {
 }
 
 .heading-sup-title {
-    color: #ff5e3a;
+    color: #30A50F;
     margin-bottom: 25px;
     text-transform: uppercase;
     font-size: 10px;
@@ -11133,7 +11133,7 @@ ol ol li {
 
 .with-title-decoration .heading-title:before {
     height: 2px;
-    background-color: #ff5e3a;
+    background-color: #30A50F;
     width: 10%
 }
 
@@ -11251,7 +11251,7 @@ ol ol li {
 }
 
 .crumina-counter-item .units div {
-    color: #ff5e3a;
+    color: #30A50F;
     display: inline-block
 }
 
@@ -11368,7 +11368,7 @@ ol ol li {
 }
 
 .socials li a:hover {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 .socials li+li {
@@ -11390,7 +11390,7 @@ ol ol li {
 }
 
 .socials--round .social-item.olympus {
-    background-color: #ff5e3a
+    background-color: #30A50F
 }
 
 .socials--round .social-item.rss {
@@ -11594,7 +11594,7 @@ ol ol li {
     left: 0;
     width: 15%;
     height: 2px;
-    background-color: #ff5e3a;
+    background-color: #30A50F;
     transition: width .3s ease-in-out
 }
 
@@ -11615,7 +11615,7 @@ ol ol li {
 }
 
 .contact-item a:hover {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 .contact-item+.contact-item {
@@ -11705,7 +11705,7 @@ ol ol li {
 }
 
 .accordion-faqs .icons-wrap svg {
-    fill: #ff5e3a;
+    fill: #30A50F;
     transition: opacity .3s ease
 }
 
@@ -11896,7 +11896,7 @@ ol ol li {
 }
 
 .help-support-list li:hover svg {
-    fill: #ff5e3a
+    fill: #30A50F
 }
 
 .help-main-topic .title {
@@ -11989,7 +11989,7 @@ ol ol li {
 }
 
 .search-help-result-title .count-result {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 .search-help-result-title .search-query {
@@ -12112,7 +12112,7 @@ ol ol li {
     right: 20px;
     top: 20px;
     color: #fff;
-    background-color: #ff5e3a;
+    background-color: #30A50F;
     font-size: 10px;
     font-weight: 900;
     text-transform: uppercase;
@@ -12132,7 +12132,7 @@ ol ol li {
 }
 
 .shop-product-item .product-price.with-sale {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 .shop-product-item .product-price.with-sale del {
@@ -12361,7 +12361,7 @@ ol ol li {
 }
 
 .tags .tags-item:hover {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 .article-number {
@@ -12395,7 +12395,7 @@ ol ol li {
 }
 
 .product-description .nav-tabs .nav-link.active .total-topic {
-    background-color: #ff5e3a
+    background-color: #30A50F
 }
 
 .product-description .nav-tabs .nav-link .total-topic {
@@ -12475,7 +12475,7 @@ ol ol li {
 
 .c-primary,
 .comments__item-review .comments__header-review .comments__author-review a:hover {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 @media (max-width:1024px) {
@@ -12716,7 +12716,7 @@ ol ol li {
 }
 
 .bg-primary {
-    background-color: #ff5e3a
+    background-color: #30A50F
 }
 
 .bg-secondary {
@@ -12776,7 +12776,7 @@ ol ol li {
 }
 
 .bg-facebook {
-    background-color: #2f5b9d
+    background-color: #0073B1
 }
 
 .bg-twitter {
@@ -13374,7 +13374,7 @@ ol ol li {
 }
 
 .w-personal-info a:hover {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 .w-personal-info.item-block .title {
@@ -13486,7 +13486,7 @@ ol ol li {
 .all-users {
     line-height: 34px;
     color: #fff;
-    background-color: #ff5e3a;
+    background-color: #30A50F;
     font-size: 10px;
     font-weight: 800
 }
@@ -13777,7 +13777,7 @@ ol ol li {
 }
 
 .playlist-popup-table .remove-icon:hover {
-    fill: #ff5e3a
+    fill: #30A50F
 }
 
 .w-friend-pages-added li>* {
@@ -13821,7 +13821,7 @@ ol ol li {
 
 .w-create-fav-page {
     padding: 25px;
-    background-color: #ff5e3a
+    background-color: #30A50F
 }
 
 .w-create-fav-page svg {
@@ -14552,7 +14552,7 @@ ol ol li {
 }
 
 .w-list a:hover {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 .w-featured-topics li+li {
@@ -14577,7 +14577,7 @@ ol ol li {
 }
 
 .w-featured-topics .title:hover {
-    color: #ff5e3a
+    color: #30A50F
 }
 
 .w-featured-topics time {
@@ -14588,7 +14588,7 @@ ol ol li {
 
 .w-featured-topics .forums {
     font-size: 11px;
-    color: #ff5e3a
+    color: #30A50F
 }
 
 .w-build-fav {
@@ -14659,7 +14659,7 @@ select.selectpicker {
 }
 
 .bootstrap-select li.selected a {
-    background: #ff5e3a;
+    background: #30A50F;
     color: #fff
 }
 
